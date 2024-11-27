@@ -18,7 +18,7 @@ The Pokémon Palette Scraper is a tool designed to extract color palettes for Po
 ### Setup
 1. **Clone the Repository**:
    ```bash
-   git clone <URL_OF_YOUR_REMOTE_REPO>
+   git clone https://github.com/Recon1991/pk-palette-scraper.git
    cd pokemon-palette-scraper
    ```
 
