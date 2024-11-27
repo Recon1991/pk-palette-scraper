@@ -14,6 +14,8 @@ The Pokémon Palette Scraper is a tool designed to extract color palettes for Po
 ### Prerequisites
 - Python 3.8 or higher
 - Required Python packages (listed in `requirements.txt`)
+- Google Chrome browser
+- ChromeDriver (compatible with your Chrome version)
 
 ### Setup
 1. **Clone the Repository**:
@@ -32,6 +34,11 @@ The Pokémon Palette Scraper is a tool designed to extract color palettes for Po
    ```bash
    pip install -r requirements.txt
    ```
+   
+4. **Install ChromeDriver**:
+   - Download ChromeDriver from [https://sites.google.com/chromium.org/driver/](https://sites.google.com/chromium.org/driver/)
+   - Make sure the version matches your installed Google Chrome version.
+   - Add the path to ChromeDriver to your system's PATH environment variable, or place it in the project directory.
 
 ## Usage
 
@@ -69,7 +76,8 @@ Feel free to contribute to this project by submitting issues or pull requests. A
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ## Disclaimer
-This scraper is intended for educational and personal use only. Be mindful of the website's terms of service, and avoid overwhelming the server with too many requests.
+Please note that the scraping process can take a considerable amount of time to complete, depending on the number of Pokémon and the website's response time. It is recommended to be patient and avoid interrupting the process once started.
+ Be mindful of the website's terms of service, and avoid overwhelming the server with too many requests.
 
 ## Contact
 For any questions or feedback, feel free to open an issue or contact the project maintainer.
