@@ -55,13 +55,12 @@ The Pokémon Palette Scraper is a tool designed to extract color palettes for Po
 - Each database contains the Pokémon's name and its corresponding color palette (nine hex codes).
 
 ## Project Structure
-- `scraper.py`: The main script that performs non-shiny Pokémon web scraping.
+- `scraper.py`: The script that scrapes non-shiny Pokémon color palettes.
 - `shiny_scraper.py`: The script that scrapes shiny Pokémon color palettes.
 - `pokemon_palette_db_merger.py`: The script that merges the non-shiny and shiny databases.
 - `palette-tool.py`: The interactive tool that provides an easy-to-use menu for managing the scraping and merging processes.
 - `requirements.txt`: List of dependencies required to run the scraper.
 - `README.md`: Documentation for the project.
-- `output/`: Directory where any additional output files may be saved.
 
 ## Contributing
 Feel free to contribute to this project by submitting issues or pull requests. Any improvements, such as additional features or optimizations, are welcome.
